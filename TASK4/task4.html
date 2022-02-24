@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(function () {
+    
+          $(".accordion h3:first").addClass("active");
+          $(".accordion p:not(:first)").hide();
+    
+          $(".accordion h3").click(function () {
+            $(this).next("p").slideToggle("slow")
+              .siblings("p:visible").slideUp("slow");
+            $(this).toggleClass("active");
+            $(this).siblings("h3").removeClass("active");
+          });
+    
+        });
+      </script>
+    
+</head>
+<body>
+
+  
+    <header class="header">
+            <div class="conteiner">
+            <div class="header__top">
+                <div class="fantiklogo">
+                    <h1 class="logo">Eco<span>Teplo</span></h1>
+                 </div>
+                 <nav class="header_nav">
+                        <ul class="nawtab">
+                        <li class="nawitem"> <a href="#">премущества</a> </li>
+                        <li class="nawitem"> <div class="elips2"></div> </li>
+                        <li class="nawitem"> <a href="#">Расчет стоимости</a> </li>
+                        <li class="nawitem"> <div class="elips2"></div> </li>
+                        <li class="nawitem"> <a href="#">Схема работы</a> </li>
+                        <li class="nawitem"> <div class="elips2"></div> </li>
+                        <li class="nawitem"> <a href="#">Отзывы</a> </li>
+                     </ul>
+                </nav>
+            </div>
+            <div class="content_dis1">
+                    <h2 class="title_dis1">ТЕПЛОВЫЕ НАСОСЫ ДЛЯ ДОМА</h2>
+                    <img src="/img/element.svg" alt="Диалога не будед" class="dilog_img">
+                    <button class="btn_dis1"> расчитать </button>
+            </div>
+        </div>  
+        <div class="srelka"> <a href="#"> <img src="/img/Group.svg" alt="Стрелки не будет"> </a> </div>
+    </header>
+
+    <div class="advantuge">
+        <div class="conteiner">
+            <div class="container_dis2">
+                <h1 class="title_advatuge">ПРЕИМУЩЕСТВА</h1>
+                <div class="wrapper-gird">
+                    <div class="plash">
+                        <div class="news"> 
+                            <h5 class="mini_tile">Экономичность</h5>
+                            <div class="line">______</div>
+                            <p class="text_grid">Низкие эксплуатационные затраты на отопление.1 кВт/час тепловой энергии стоит в среднем 1,25 руб.</p>
+                        </div>
+                        <div class="krug">
+                            <img src="/img/Vector.svg" alt="" class="profile-img"> 
+                        </div>
+                        
+                    </div>
+                    <div class="plash">
+                        <div class="news"> <p>kjhkv,hjv</p> </div>
+                        <div class="krug">
+                            <img src="/img/Vector 2.svg" alt="" class="profile-img"> 
+                        </div>
+                    </div>
+                    <div class="plash">
+                        <div class="news"> <p>kjhkv,hjv</p> </div>
+                        <div class="krug">
+                            <img src="/img/Vector 3.svg" alt="" class="profile-img"> 
+                        </div>
+                    </div>
+                    <div class="plash">
+                        <div class="news"> <p>kjhkv,hjv</p> </div>
+                        <div class="krug">
+                            <img src="/img/Vector 4.svg" alt="" class="profile-img"> 
+                        </div>
+                    </div>
+                    <div class="plash">
+                        <div class="news"> <p>kjhkv,hjv</p> </div>
+                        <div class="krug">
+                            <img src="/img/Vector 5.svg" alt="" class="profile-img"> 
+                        </div>
+                    </div>
+                    <div class="plash">
+                        <div class="news"> <p>kjhkv,hjv</p> </div>
+                        <div class="krug">
+                            <img src="/img/Vector 6.svg" alt="" class="profile-img"> 
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="calculation_of_savings">
+        <div class="fantikcalculation">
+            <h1 class="calculation_title">Тепловые насосы гарантированно <span>экономят 70%</span>  от стоимости отопления</h1>
+            <div class="blok_calcution"> <p>Эти 3 дома в сумме экономят 158.000 рублей в год!</p>  </div>
+        </div>
+        <div class="calculation">
+            <h1 class="title_dilog_calcultion">Рассчитайте свою экономию на отоплении</h1>
+            <h1>_________</h1>
+            <p>Количество этажей в вашем доме</p>
+            <div class="button_blok1">
+                <button class="btn12">xex</button>
+                <button class="btn12">xex</button>
+            </div>
+            <p>Площадь вашего дома</p>
+            <div class="button_blok2">
+                <button class="btn12">xex</button>
+                <button class="btn12">xex</button>
+                <button class="btn12">xex</button>
+            </div>
+            <div class="intput_blok_ctextalculation">
+                <input type="text" class="inpt" placeholder="Ваш телефон">
+                <input type="text" class="inpt"placeholder="Ваш e-mail">
+                <button class="btn3">xex</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="worked_princebl">
+        <h1 class="titel_worked_princebl">ПРИНЦИП РАБОТЫ ТЕПЛОВОГО НАСОСА</h1>
+        <img src="/img/worked_cxem.svg" alt="" class="img_worked_princebl">
+        <button class="btn_worked_princebl">Узнать подробнее</button>
+    </div>
+
+    <div class="rewiews">
+        <img src="/img/кастыль.svg" alt="" class="kostyl">
+    </div>
+    
+    <div class="qwetion">
+        <h1 class="titel_qwetion">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ </h1>
+        <div class="drop-down_list">
+            <div class="accordion">
+                <h3 class="">Question One Sample Text</h3>
+                <p style="display: none;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi malesuada, ante at feugiat tincidunt, enim massa
+                  gravida metus, commodo lacinia massa diam vel eros. Proin eget urna. Nunc fringilla neque vitae odio. Vivamus vitae
+                  ligula.</p>
+                <h3>This is Question Two</h3>
+                <p style="display: none;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi malesuada, ante at feugiat tincidunt, enim massa
+                  gravida metus, commodo lacinia massa diam vel eros. Proin eget urna. Nunc fringilla neque vitae odio. Vivamus vitae
+                  ligula.</p>
+                <h3>Another Questio here</h3>
+                <p style="display: none;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi malesuada, ante at feugiat tincidunt, enim massa
+                  gravida metus, commodo lacinia massa diam vel eros. Proin eget urna. Nunc fringilla neque vitae odio. Vivamus vitae
+                  ligula.</p>
+                <h3>Sample heading</h3>
+                <p style="display: none;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi malesuada, ante at feugiat tincidunt, enim massa
+                  gravida metus, commodo lacinia massa diam vel eros. Proin eget urna. Nunc fringilla neque vitae odio. Vivamus vitae
+                  ligula.</p>
+                <h3>Sample Question Heading</h3>
+                <p style="display: none;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi malesuada, ante at feugiat tincidunt, enim massa
+                  gravida metus, commodo lacinia massa diam vel eros. Proin eget urna. Nunc fringilla neque vitae odio. Vivamus vitae
+                  ligula.</p>
+            </div>
+        </div>
+        <div class="btn_block">
+            <button class="btn_qwetion">Узнать подробнее</button>
+        <button class="btn_qwetion">Узнать подробнее</button>
+        </div>
+    </div>
+
+    <div class="smart_home">
+        <div class="conteiner">
+            <div class="title_smart_home">Управляй климатом своего дома из любого места</div>
+            <button class="btn_dis7">Подробнее</button>
+        </div>
+    </div>
+
+    <div class="heat_pump_cost">
+        <h1 class="title_heat_pump_cost">СТОИМОСТЬ ТЕПЛОВОГО НАСОСА</h1>
+        <div class="fantik_plash">
+            <div class="plash1">
+                <h4 class="title_heat_pump">ТЕПЛОВОЙ НАСОС воздух-воздух </h4>
+                <h2 class="cena">
+                    <img src="/img/Vector_RUB.svg" alt="" class="vgrb"> 90 000 <p>(без установки)</p>
+                </h2>
+                <p class="cheklist"><img src="/img/галочка.svg" alt=""> Тепловой насос</p>
+                <p class="cheklist"><img src="/img/галочка.svg" alt=""> Тепловой насос</p>
+                <p class="cheklist"><img src="/img/remove.png" alt=""> Тепловой насос</p>
+                <p class="cheklist"><img src="/img/remove.png" alt=""> Тепловой насос</p>
+                <p class="cheklist"><img src="/img/галочка.svg" alt=""> Тепловой насос</p>
+                <button class="btn_cost">Заказать</button>
+            </div>
+            <div class="plash2">
+                <h4 class="title_heat_pump">ТЕПЛОВОЙ НАСОС воздух-воздух + гидромодуль</h4>
+                <h2 class="cena">
+                    <img src="/img/Vector_RUB.svg" alt="" class="vgrb"> 157 000 <p>(без установки)</p>
+                </h2>
+                <p class="cheklist"><img src="/img/галочка.svg" alt=""> Тепловой насос</p>
+                <p class="cheklist"><img src="/img/галочка.svg" alt=""> Тепловой насос</p>
+                <p class="cheklist"><img src="/img/галочка.svg" alt=""> Тепловой насос</p>
+                <p class="cheklist"><img src="/img/галочка.svg" alt=""> Тепловой насос</p>
+                <p class="cheklist"><img src="/img/галочка.svg" alt=""> Тепловой насос</p>
+                <p class="cheklist"><img src="/img/галочка.svg" alt=""> Тепловой насос</p>
+                <button class="btn_cost">Заказать</button>
+            </div>
+            <div class="plash1">
+                <h4 class="title_heat_pump">ТЕПЛОВОЙ НАСОС воздух-воздух </h4>
+                <h2 class="cena">
+                    <img src="/img/Vector_RUB.svg" alt="" class="vgrb"> 102 000 <p>(без установки)</p>
+                </h2>
+                <p class="cheklist"><img src="/img/галочка.svg" alt=""> Тепловой насос</p>
+                <p class="cheklist"><img src="/img/remove.png" alt=""> Тепловой насос</p>
+                <p class="cheklist"><img src="/img/remove.png" alt=""> Тепловой насос</p>
+                <p class="cheklist"><img src="/img/remove.png" alt=""> Тепловой насос</p>
+                <p class="cheklist"><img src="/img/remove.png" alt=""> Тепловой насос</p>
+                <button class="btn_cost">Заказать</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="application">
+        <div class="application_block">
+            <h2> </h2>
+            <h1 class="title_dilog_calcultion">Оставьте заявку и мы посчитаем Вашу экономию </h1>
+            <h1>_________</h1>
+            <p>Количество этажей в вашем доме</p>
+            <div class="button_blok1">
+                <button class="btn12">1 этаж</button>
+                <button class="btn12">2 этажа</button>
+                <button class="btn12">3 этажа</button>
+            </div>
+            <p>Система отапления</p>
+            <div class="button_blok2">
+                <button class="btn12">радиаторы</button>
+                <button class="btn12">тёплый дом</button>
+                
+            </div>
+            <div class="intput_blok_ctextalculation">
+                <input type="text" class="inpt"placeholder="Счёт за электро инэргию зимой (за один месяц)">
+                <input type="text" class="inpt" placeholder="площадь дома">
+                <input type="text" class="inpt"placeholder="Ваш телефон">
+                <input type="text" class="inpt"placeholder="Ваш e-mail">
+                <button class="btn3">оставить заявку</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footlogo">
+            <h1 class="logo">Eco<span>Teplo</span></h1>
+            <div class="contakt">
+                <p>Телефон:   +7 921 410-37-14</p>
+                <p>Адреса:  г. Санкт-Петербург</p>
+                <p>1. ул. Советская 87/17</p>
+            </div>
+            <div class="suckssss">
+                <img src="/img/logos_telegram.svg" alt="">
+                <img src="/img/fa-brands_viber.svg" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+C:\Users\Aser\Desktop\AllProject\MyBrouser\MyBrouser\bin\Debug\MyBrouser.exe.config
+C:\Users\Aser\Desktop\AllProject\MyBrouser\MyBrouser\bin\Debug\MyBrouser.exe
+C:\Users\Aser\Desktop\AllProject\MyBrouser\MyBrouser\bin\Debug\MyBrouser.pdb
+C:\Users\Aser\Desktop\AllProject\MyBrouser\MyBrouser\obj\Debug\MyBrouser.csproj.AssemblyReference.cache
+C:\Users\Aser\Desktop\AllProject\MyBrouser\MyBrouser\obj\Debug\MyBrouser.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aser\Desktop\AllProject\MyBrouser\MyBrouser\obj\Debug\MyBrouser.Form1.resources
+C:\Users\Aser\Desktop\AllProject\MyBrouser\MyBrouser\obj\Debug\MyBrouser.Properties.Resources.resources
+C:\Users\Aser\Desktop\AllProject\MyBrouser\MyBrouser\obj\Debug\MyBrouser.csproj.GenerateResource.cache
+C:\Users\Aser\Desktop\AllProject\MyBrouser\MyBrouser\obj\Debug\MyBrouser.csproj.CoreCompileInputs.cache
+C:\Users\Aser\Desktop\AllProject\MyBrouser\MyBrouser\obj\Debug\MyBrouser.exe
+C:\Users\Aser\Desktop\AllProject\MyBrouser\MyBrouser\obj\Debug\MyBrouser.pdb
